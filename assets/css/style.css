@@ -19,4 +19,51 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
+    font-size: 16px;
+}
+
+
+/* ==================== Estilização do Body ==================== */
+body {
+    padding: 5% 10%;
+}
+
+/* ==================== Estilização do Header ==================== */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .logo {
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+
+#header .logo:hover {
+    width: 120%;
+    height: auto;
+}
+
+#header .navList {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.navList a.active {
+    color: var(--gold);
+}
+
+.navList li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #6B696E;
+    font-size: 1.1em;
+    transition: 0.3s ease-in-out;
+}
+
+.navList a:hover {
+    color: var(--gold);
 }
