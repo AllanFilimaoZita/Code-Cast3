@@ -4,7 +4,7 @@ Este projeto é o resultado de um desafio da **Mentoria Dev Experience**, com o 
 
 ## 📸 Preview
 
-![Preview do Projeto](./assets/img/preview/preview.png)
+![Preview do Projeto](./assets/img/preview/desktop-design.jpg)
 
 ## 🚀 Tecnologias Utilizadas
 
