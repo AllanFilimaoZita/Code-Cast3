@@ -1,0 +1,22 @@
+/* ==================== Variáveis Globais ==================== */
+:root {
+    --princiapl: #FEFDF9;
+    --gray: #6B696E;
+    --dark: #010219;
+    --red: #EE5B51;
+    --gold: #EDAB50;
+}
+
+/* ==================== Fontes Globais ==================== */
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
+/* ==================== Desabilitando a Formatação Padrão ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
