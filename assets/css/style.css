@@ -3,6 +3,8 @@
     --princiapl: #FEFDF9;
     --gray: #6B696E;
     --dark: #010219;
+    --white: #FFFFFF;
+    --darkblue: #01021A;
     --red: #EE5B51;
     --gold: #EDAB50;
 }
@@ -67,3 +69,36 @@ body {
 .navList a:hover {
     color: var(--gold);
 }
+
+/* =============== Estilização da Section Principal =============== */
+#main .mainBox {
+    padding: 10% 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.mainBox img {
+    width: 100%;
+    height: auto;
+}
+
+/* ============== Estilização da Lado Esquerdo =============== */
+.leftSide {
+    width: 70%;
+}
+
+
+/* ============== Estilização da Lado Direito =============== */
+.rightSide {
+    width: 30%;
+    padding: 3% 2%;
+    color: var(--white);
+    background-color: var(--darkblue);
+}
+
+.rightSide .mainHeading {
+    font-size: 2em;
+    color: var(--gold);
+}
+
