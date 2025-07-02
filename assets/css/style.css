@@ -61,8 +61,9 @@ body {
 .navList li, a {
     text-decoration: none;
     list-style: none;
-    color: #6B696E;
+    color: var(--gray);
     font-size: 1.1em;
+    font-weight: 300;
     transition: 0.3s ease-in-out;
 }
 
@@ -72,7 +73,7 @@ body {
 
 /* =============== Estilização da Section Principal =============== */
 #main .mainBox {
-    padding: 10% 0;
+    padding: 2.5% 0;
     display: flex;
     gap: 30px;
     justify-content: space-between;
@@ -83,6 +84,49 @@ body {
     height: auto;
 }
 
+.mainBox .leftSide {
+    width: 70%;
+}
+
+.mainBox .content {
+    padding: 2.5% 0;
+    display: flex;
+    gap: 50px;
+}
+
+.content .heading {
+    width: 30%;
+}
+
+.content .heading h1 {
+    font-size: 3.4rem;
+}
+
+.content .text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content .text p {
+    font-size: 1.5em;
+    color: var(--gray);
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.content .text button {
+    padding: 10px 30px;
+    border: none;
+    background-color: var(--red);
+    color: var(--darkblue);
+}
+
+.mainBox .rightSide {
+    width: 30%;
+}
+
 /* ============== Estilização da Lado Esquerdo =============== */
 .leftSide {
     width: 70%;
@@ -90,15 +134,3 @@ body {
 
 
 /* ============== Estilização da Lado Direito =============== */
-.rightSide {
-    width: 30%;
-    padding: 3% 2%;
-    color: var(--white);
-    background-color: var(--darkblue);
-}
-
-.rightSide .mainHeading {
-    font-size: 2em;
-    color: var(--gold);
-}
-
