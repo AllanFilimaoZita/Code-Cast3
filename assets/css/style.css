@@ -28,6 +28,7 @@
 /* ==================== Estilização do Body ==================== */
 body {
     padding: 5% 10%;
+    background: var(--princiapl);
 }
 
 /* ==================== Estilização do Header ==================== */
