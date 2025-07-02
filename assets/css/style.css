@@ -134,3 +134,75 @@ body {
 
 
 /* ============== Estilização da Lado Direito =============== */
+.mainBox .rightSide {
+    background-color: var(--darkblue);
+}
+
+.rightSide .firsCard {
+    padding: 10% 5%;
+}
+
+.rightSide .firsCard h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--gold);
+}
+
+.rightSide .firsCard h2 {
+    padding: 5% 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.rightSide .firsCard p {
+    color: var(--gray);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.rightSide .secondCard {
+    padding: 10% 5%;
+}
+
+.rightSide .secondCard h2 {
+    padding: 5% 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.rightSide .secondCard p {
+    color: var(--gray);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.rightSide .threethCard {
+    padding: 10% 5%;
+}
+
+.rightSide .threethCard h2 {
+    padding: 5% 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.rightSide .threethCard p {
+    color: var(--gray);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+
+
+
+.divisor {
+    width: 380px;
+    height: 1px;
+    background-color: var(--gray);
+    border: none;
+    margin: 5px auto;
+}
